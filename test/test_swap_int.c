@@ -11,5 +11,5 @@
 Test(swap_int, normal) {
     int a = 20;
     int b = 70;
-    cr_assert_eq(swap_int(&a, &b), &a);
+    cr_assert_eq(swap_int(&a, &b), 70);
 }
